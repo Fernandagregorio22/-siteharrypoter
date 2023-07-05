@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Dancing+Script:wght@700&family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Filmes</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Personagens</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Novidades</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Ajuda</a>
+                </li>
+            </ul>
+
+            <img src="img/logo.png" alt="Logo do Harry Potter" class="container__logo">
+        </div>
+
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Filmes</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Personagens</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Novidades</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Ajuda</a>
+                </li>
+            </ul>
+
+            <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+            <li class="opções__item"><a href="#" class="opções__link">Meus Filmes</a></li>
+        </ul>
+        
+            <h1 class="container__titulo">Harry Potter</h1>
+
+        <div class="container">
+            <a href="#"><img src="img/Favoritos.png" alt="Meus favoritos"
+                    class="container__imagem container__imagem-transparente"></a>
+            <a href="#" class="container__link">
+                <img src="img/Sacola.png" alt="Sacola" class="container__image">
+                <p class="container__texto">Minha sacola</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="img/perfil.png" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Meu perfil</p>
+            </a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Encontre nossa saga de filmes!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será seu próximo filme?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Filmes</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><a href="https://pt.wikipedia.org/wiki/Harry_Potter_e_a_Pedra_Filosofal_(filme)"><img src="img/pedra filosofal.webp" alt="Harry Potter: pedra filosofal"></a></div>
+                    <div class="swiper-slide"><a href="https://pt.wikipedia.org/wiki/Harry_Potter_and_the_Chamber_of_Secrets_(filme)"><img src="img/camara secreta.webp" alt="Harry Potter: camara secreta"></a></div>
+                    <div class="swiper-slide"><a href="https://pt.wikipedia.org/wiki/Harry_Potter_e_o_Prisioneiro_de_Azkaban_(filme)"><img src="img/prisioneiro de azkaban.webp" alt="Harry Potter: prisioneiro de azkaban"></a></div>
+                    <div class="swiper-slide"><a href="https://pt.wikipedia.org/wiki/Harry_Potter_e_o_C%C3%A1lice_de_Fogo_(filme)"><img src="img/calice de fogo.webp" alt="Harry Potter: calice de fogo"></a></div>
+                    <div class="swiper-slide"><a href="https://pt.wikipedia.org/wiki/Harry_Potter_and_the_Order_of_the_Phoenix_(filme)"><img src="img/ordem da fenix.webp" alt="Harry Potter: ordem da fenix"></a></div>
+                    <div class="swiper-slide"><a href="https://pt.wikipedia.org/wiki/Harry_Potter_and_the_Half-Blood_Prince_(filme)"><img src="img/enigma de principe.webp" alt="Harry Potter: enigma do principe"></a></div>
+                    <div class="swiper-slide"><a href="https://pt.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows_%E2%80%93_Part_1"><img src="img/as reliquias da morte 1.webp" alt=" Harry Potter: reliquias da morte pt 1"></a></div>
+                    <div class="swiper-slide"><a href="https://pt.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows_%E2%80%93_Part_2"><img src="img/as reliquias da morte 2.webp" alt="Harry Potter: reliquias da morte pt 2"></a></div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Personagens</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><a href="https://canaltech.com.br/celebridade/harry-potter/#:~:text=Harry%20James%20Potter%20nasceu%20em,Magia%20e%20Bruxaria%20de%20Hogwarts."><img src="img/harry.jpg" alt="Harry Potter"></a></div>
+                    <div class="swiper-slide"><a href="https://harrypotter.fandom.com/pt-br/wiki/Hermione_Granger#:~:text=A%20Ministra%20da%20Magia%20Hermione,Magia%20e%20Bruxaria%20de%20Hogwarts."><img src="img/hermione.webp" alt="hermione"></a>></div>
+                    <div class="swiper-slide"><a href="https://pt.wikipedia.org/wiki/Ron_Weasley#:~:text=Ronald%20Bilius%20Weasley%20%C3%A9%20um,uma%20antiga%20fam%C3%ADlia%20de%20feiticeiros."><img src="img/ron.jpg" alt="ron"></a></div>
+                    <div class="swiper-slide"><a href="https://harrypotter.fandom.com/pt-br/wiki/Draco_Malfoy"><img src="img/draco.webp" alt="Draco"></a></div>
+                    <div class="swiper-slide"><a href="https://harrypotter.fandom.com/pt-br/wiki/Cedrico_Diggory"><img src="img/cedrigo.png" alt="Cedrico"></a></div>
+                    <div class="swiper-slide"><a href="https://harrypotter.fandom.com/pt-br/wiki/Dobby"><img src="img/dobby.webp" alt="dobby"></a></div>
+                    <div class="swiper-slide"><a href="https://harrypotter.fandom.com/pt-br/wiki/Luna_Lovegood"><img src="img/luna.webp" alt="Luna"></a></div>
+                    <div class="swiper-slide"><a href="https://harrypotter.fandom.com/pt-br/wiki/Sirius_Black"><img src="img/sirius.jpg" alt="Sirius"></a></div>
+                    <div class="swiper-slide"><a href="https://harrypotter.fandom.com/pt-br/wiki/Tom_Riddle"><img src="img/voldemort.jpg" alt="voldemort"></a></div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            </div>
+
+            <div class="card">
+                <!-- 1º linha -->
+                <div class="card__descrição">
+                    <!-- 1º coluna -->
+                    <div class="descrição">
+                        <h3 class="descrição__titulo">Comemoração de 20 anos</h3>
+                        <h2 class="descrição__titulo-livro">De volta a Hogwarts</h2>
+                        <p class="descrição__texto"> Daniel Radcliffe, Rupert Grint e Emma Watson se juntam ao cineasta Chris Columbus e a outros estimados membros do elenco dos oito filmes de Harry Potter em uma viagem de volta a Hogwarts para celebrar o aniversário do primeiro filme da franquia, Harry Potter e a Pedra Filosofal, que estreou há 20 anos. </p>
+                    </div>
+                    <!-- 2º coluna -->
+                    <img src="img/20anos.jpeg" class="descrição__imagem">
+                </div>
+
+                <!-- 2º linha -->
+                <div class="card__botões">
+                    <!-- 1º coluna -->
+                    <ul class="botões">
+                        <li class="botões__item"><a href="#"><img src="img/Favoritos.png" alt="Favoritar filme"></a></li>
+                        <li class="botões__item"><a href="#"><img src="img/Sacola.png" alt="Adicionar no carrinho de compras"></a></li>
+                    </ul>
+                    <!-- 2º coluna -->
+                    <a href="https://www.hbomax.com/br/pt/feature/urn:hbo:feature:GYbzrRAvf-ZPCKQEAAAAX" class="botões__ancora">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card__segundo">
+            <!-- 1º linha -->
+            <div class="card__descrição">
+                <!-- 1º coluna -->
+                <div class="descrição">
+                    <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+                    <h2 class="descrição__titulo-livro">Senhor dos Anéis</h2>
+                    <p class="descrição__texto"> O Senhor dos Anéis é uma trilogia cinematográfica dirigida por Peter Jackson com base na obra-prima homónima de J. R. R. Tolkien</p>
+                </div>
+                <!-- 2º coluna -->
+                <img src="img/senhor dos aneis.jpg" class="descrição__imagem">
+            </div>
+
+            <!-- 2º linha -->
+            <div class="card__botões">
+                <!-- 1º coluna -->
+                <ul class="botões">
+                    <li class="botões__item"><a href="#"><img src="img/Favoritos.png" alt="Favoritar filme"></a></li>
+                    <li class="botões__item"><a href="#"><img src="img/Sacola.png" alt="Adicionar no carrinho de compras"></a></li>
+                </ul>
+                <!-- 2º coluna -->
+                <a href="https://pt.wikipedia.org/wiki/O_Senhor_dos_An%C3%A9is_(s%C3%A9rie_de_filmes)" class="botões__ancora">Saiba mais</a>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <section class="contato">
+        <div class="contato__descrição">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações dos filmes, informações e muito mais!</p>
+        </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+    </section>
+
+
+
+    <footer class="rodapé">
+        <h2 class="rodapé__titulo">HBO MAX</h2>
+        <ul class="lista-rodapé">
+            <li class="lista-rodapé__titulo"></li>
+            <li class="lista-rodapé__item">
+                <a href="https://www.hbomax.com/br/pt/sitemap" class="lista-rodapé__link">AGORA NO HBO MAX</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="https://www.hbomax.com/br/pt/coming-soon" class="lista-rodapé__link">EM BREVE</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="https://www.hbomax.com/br/pt/feature" class="lista-rodapé__link">FILME EM DESTAQUE</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="https://www.hbomax.com/br/pt/series" class="lista-rodapé__link">SÉRIES</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="https://help.hbomax.com/br" class="lista-rodapé__link">AJUDA</a>
+            </li>
+        </ul>
+
+        <ul class="lista-rodapé">
+            <li class="lista-rodapé__titulo"></li>
+            <li class="lista-rodapé__item">
+                <a href="https://help.hbomax.com/br" class="lista-rodapé__link">PRIVACIDADE</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="https://help.hbomax.com/br" class="lista-rodapé__link">TERMOS DE USO</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="https://www.hbomaxlapress.com/" class="lista-rodapé__link">COMUNICADOS DA IMPRENSA</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href= "https://www.hbomax.com/br/pt/harry-potter?countryRedirect=1&utm_id=sa%7c71700000085056423%7c58700007207970536%7cp64665094077&gclid=Cj0KCQjwnf-kBhCnARIsAFlg492gN-x9tL63LWMJO_9xWPXjH8hKDPPM0wyT-XgXXYZ0TrfIqdwoA4gaAnsxEALw_wcB&gclsrc=aw.ds#compliance-link" class="lista-rodapé__link">CONTATOS DE IMPRENSA</a>
+        </ul>
+    </footer>
+
+    <footer class="rodape__copy">
+    
+        <div class="rodapé__capcom">
+            <h2 class="rodapé__titulo-segundo">© 2023 WarnerMedia Direct Latin America, LLC. Todos os direitos reservados. HBO Max é usado sob licença.</h2>
+        </div>
+    
+    </footer>
+    
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+
+</html>
